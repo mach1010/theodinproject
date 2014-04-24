@@ -574,12 +574,12 @@
     border-radius:10px;
 		.hof-links{
 			float:left;
-			font: arial;
-			font-weight:600;
-			font-family:Tahoma;
-			font-size:1.4em;
-			letter-spacing:-0.8px;
 			a{
+				font: arial;
+				font-weight:600;
+				font-family:Tahoma;
+				font-size:1.4em;
+				letter-spacing:-0.8px;
 				text-decoration:none;
 				color:black;
 				opacity:0.4;
@@ -596,9 +596,7 @@
 				margin-top:5px;		
 			}
 		}
-
 		.name-bg{
-			z-index:10000;
 			height: 36px;
 			margin:20px -60px 4px 76px;
 			border-radius:12px;
@@ -619,11 +617,10 @@
 			font-size:1.5em;
 			font-weight:350;
 		}
-
 		.img {
 			z-index: 100;
 			transition: 0.25s;
-			transition-delay:0.06s;
+			transition-delay:0.01s;
 			border:2px solid black;
 			box-shadow: 5px 5px 5px #B28F6B;
 			height:160px;
@@ -635,13 +632,12 @@
 		.img:hover{
 			z-index: 100;
 			transition: 0.25s;
-			transition-delay:0.04s;
+			transition-delay:0.01s;
 			border:2px solid black;
-			box-shadow: 10px 10px 10px #B28F6B;
-			height:280px;
-			width:280px;
-			border-radius: 4px;
-			margin-left: -190px;
+			box-shadow: 6px 6px 6px #B28F6B;
+			height:180px;
+			width:180px;
+			margin-left: -80px;
 		}
   }
 }
